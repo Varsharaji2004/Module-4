@@ -34,12 +34,48 @@ To write a Python program to perform addition and division operations using a cl
 
 ### PROGRAM
 
-```
+```python
+class calc():
+    def setvalues(self,a,b):
+        self.a = a
+        self.b = b
+        
+    def add(self):
+        self.a + self.b
+        
+    def mul(self):
+        self.a // self.b
+        
+a = int(input())
+b = int(input())
+
+obj=a+b
+obc=a*b
+choice = 1
+
+while choice!=0:
+    choice = int(input())
+    if choice ==1:
+        print("Result: ",obj)
+        
+    elif choice == 2:
+        print("Result: ",obc)
+        
+    elif choice == 0:
+        print("Exiting!")
+        break
+    else:
+        print("Invalid choice")
 
 
-
+print()
 ```
 
 ### OUTPUT
 
+<img width="1185" height="381" alt="image" src="https://github.com/user-attachments/assets/d41dc2f9-23e9-477e-b5c0-05b545f01d92" />
+
+
 ### RESULT
+
+Therefore, the output is the example to write a python program to perform addition and multiplication operation using class and if..elif statement note: class name should be calc, function name should be setvalues( to set a and b values) ,add and mul cases : choice 1 ->perform addition ,choice 2-> perform multiplication , choice 0 -> exiting, other choices -> print 'invalid choice'
