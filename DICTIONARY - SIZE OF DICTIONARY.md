@@ -20,17 +20,21 @@ To write a Python program to print the size of a dictionary using `getsizeof()` 
 ---
 
 ### PROGRAM
-
+```python
+from sys import getsizeof
+dic1 = {"A": 1, "B": 2, "C": 3} 
+dic2 = {"Geek1": "Raju", "Geek2": "Nikhil", "Geek3": "Deepanshu"}
+dic3 = {1: "Lion", 2: "Tiger", 3: "Fox", 4: "Wolf"}
+print("Size of dic1: ",getsizeof(dic1),"bytes",sep="")
+print("Size of dic2: ",getsizeof(dic2),"bytes",sep="")
+print("Size of dic3: ",getsizeof(dic3),"bytes",sep="")
 ```
-#Reg.No
-#Name
-#Add Your Code Here
 
-
-
-```
 
 ### OUTPUT
 
+<img width="1183" height="238" alt="image" src="https://github.com/user-attachments/assets/9b2b5493-4e6b-4155-b507-016c5186499f" />
 
 ### RESULT
+
+Therefore, the output is the example to write a Python program to print the size of a dictionary using getsizeof() from the sys module.
